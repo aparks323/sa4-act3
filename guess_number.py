@@ -7,3 +7,4 @@ if guess == number:
    print("Congratulations! You guessed the right number.")
 else:
    print(f"Sorry! The number was {number}.")
+
