@@ -9,6 +9,10 @@ elif guess != number:
         guess = (input("What number am I thinking of? (Press q to quit.) "))
         numguess += 1
         print(f'You have guessed {numguess} times.')
+elif guess > number:
+     print("Guess too high.")
+elif guess < number:
+     print("Guess is too low.")
 elif guess == 'q':
     print("Goodbye!")
 
